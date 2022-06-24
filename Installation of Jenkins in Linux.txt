@@ -1,0 +1,24 @@
+
+	Install Jenkins on AWS EC2
+
+Prerequisites
+ .EC2 with Port 8080 open 
+
+
+yum -y install java-1.8.0-openjdk
+java -version
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64
+export JAVA_HOME
+PATH=$PATH:$JAVA_HOME
+source ~/.bash_profile
+yum -y install wget
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo amazon-linux-extras install epel -y
+yum -y install jenkins
+		
+		Start Jenkins
+systemctl start jenkins /service jenkins start
+systemctl enable jenkins  /chkconfig jenkins on
+
+(http://YOUR-SERVER-PUBLIC-IP:8080) in browser

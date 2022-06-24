@@ -1,0 +1,225 @@
+EC2
+•	Having very good knowledge wrt EC2s like launching windows and Linux machines and all five types of Elastic Block store (EBS) volumes and their differences.
+•	Launched all three kinds of load balancers and attached to webservers to distribute traffic as well as to check the health of EC2 instances to make sure that they are always up and running.
+•	Extensively used Launch configurations and Auto Scaling to provide high availability to EC2 machines and effectively used scaling policies based on web traffic.
+•	Hands on experience in creating Snapshots to take back up copy of our EBS volumes.
+•	Created AMIs and Volumes and played with them like attaching, detaching, creating own AMIs for replication of same environment in same/different Availability Zones as well as same/different regions.
+•	Well understanding of both system status checks and instance status checks and how to trouble shoot if system or instance fails.
+•	Encrypted volumes to provide security from unauthorized access and misuse of data and provide protection from accidental deletion of machines.
+
+-	Launching EC2 instances with required Os and configurations for all devops tools
+-	Working with AWS teams for scale up and scale down purposes
+-	Provinding limites access to team members by creating user accounts in EC2
+-	Managing ports as per the requirements
+-	Managing keys and keeping safely
+-	
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Chef
+•	Established complete Chef environment in my organization
+•	Installed & configured Chef Workstation, Chef Server and Bootstrapped Chef nodes.
+•	Having complete hands on experience in working with managed chef server.
+•	Having good knowledge in working process of Knife, chef-client, Ohai tool and Idempotency concepts.
+•	Written so many cookbooks from scratch as well as used many cookbooks from Chef Supermarket.
+•	Having good practical experience with ruby scripting. Used extensively in writing recipes to create chef resources.
+•	Deployed Apache web servers by using community cookbooks.
+•	Well aware with the concepts like Metadata file and Run lists.
+•	Created configuration files by using Chef Attributes and deployed in chef nodes.
+•	Well aware of best practices with respect to the usage of chef.
+•	Completely automated the running of chef-client instead of calling every time manually.
+•	Having very good knowledge in dealing with advanced concepts in chef like roles. Created many roles in the process of achieving complete automation.
+•	Well aware of advantages of configuration management process and usage of chef tool.. 
+
+- 	Creating/editing & deleting Files (Normal, config, Link, Hidden, zip, tar)
+-	Editing,copying,deleting file, folder content
+-	Creating/editing & deleting Directories
+-	Files & Filder permissions (Read write & execute access)
+-	User Administration
+- 	Creating users, groups, permissions, adding-removing users from groups & changing ownerships......
+-	Installing, Uninstalling, Upgrading, downgrading packages
+-	Managing services
+-	Taking backups (copy, link files)
+-	Installing big applications (Web, Tomcat, Java, Python.....)
+-	Executing shell scripts
+-	Collecting Info (Like network) from nodes(files, folders...)
+-	Pushing html files to nodes
+-	Cloning github/bitbucket repos
+-	Downloading packages from internet
+-	Linking to jenkins in CI-CD process for deployment of .war, .jar files
+-	CI-CD deployment in all environments
+-	New admin tasks which emerges everyday
+-	Providing training sessions to Freshers & documenting new inventions
+-	Resolving tickets raised by staff
+-	Taking remote sessions to addess issues
+- 	Docker(All devops) related all activities
+-	Provisioning AWS Infrastructure
+-	Resolve jira tickets on daily basis
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Git
+•	Complete understanding of source code management, distributed version control system, its working process and advantages.
+•	Having good knowledge in Git and its advantages over other SCM tools.
+•	Installed and configured Git and GitHub at organization.
+•	Used Git extensively in each and every project to store all kinds of code.
+•	Having good understanding of git terminology.
+•	Well aware of git stages like work space, stage/index, local repository and central repository.
+•	Complete understanding of snapshots and commits concepts.
+•	Attached tags to refer commits as it is very difficult to remember commits ID's.
+•	Good practice knowledge in using git commands like git pull, git push, git fetch, git clone, git log and other git commands.
+•	Well aware of git concepts like ignoring git files, git stash.
+•	Complete hands on experience on dealing with git branching, merging branches, switching branches and resolve merge conflicts.
+•	Good understanding between git reset and git revert and also cleaning git repository.
+•	Good knowledge in some advanced concepts like git rebase, git bisect, git squash and git cherry pic.
+•	Good hands on experience in working with GitHub and BitBucket.
+
+-	Storing scripts (Ruby, Yaml & Docker files)
+-	Sharing with collegues
+-	Managing Github permissions (Teams, Collaborators, Organizatons & Repos)
+-	Integrating with Jenkins in CI-CD process
+-	Running Maven Jobs after pulling code from github
+-	Train others (All emloyees in companies)
+-	Storing Code (Java, Python...) given by developers
+-	Providing repo access to Clients
+-	Creating Private repos
+-	Documenting inventions in Github
+-	Setting git infra in others machines
+-	Taking olderversions of code as and we need
+-	Forking & Cloning repos
+- 	Setup/remove ssh password less connection to github with all employees machines
+-	Create protected branches
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+DOCKER
+•	Having good practice experience in installation and configuring of docker.
+•	Well aware of the advantages of docker over other virtualization technologies in the market.
+•	Good knowledge in docker concepts like OS level virtualization and layered file system which docker follows.
+•	Good understanding of docker, its components and docker work flow.
+•	Created many docker containers form docker images.
+•	Having good hands on experience in using docker images from docker hub as well as creating our own docker images form docker containers.
+•	Good understanding in working process of docker file and also created docker images from docker files.
+•	Created private docker registry to store docker images so that only project members can able to access to make sure that security is at its peaks.
+•	Created docker volumes to provide high availability to data even if any of the docker container goes down.
+•	Good hands on experience in sharing docker volumes among containers and between container and host.
+•	Used docker port mapping to expose port to outside of docker container to access website which is running inside docker container.
+•	Created own local docker registry server by taking registry image from docker hub.
+•	Good knowledge in pulling and pushing docker images from and to docker hub.
+•	Having very good hands on experience in using all kinds of docker instructions in docker file.
+•	Good knowledge in creating demonized docker containers.
+
+-	Creating Docker images and push to dockerhub so that Developers & Testers can use them
+-	Testing websites by using port mapping concepts and running as detached mode
+-	Indexfile push to containers with volume mapping concept
+-	Taking contaienrs logs to host machine with volume mapping concept
+-	Providing Training sessions to Employees
+-	Sharing images with collegues with required packages
+-	Taking data(Customers inputs) from containes to host with volume mapping
+-         Taking backups (Host-Cont-Cont mapping)
+-	Testing product in all environmental containers
+-	Giving docker images to clinet after every modification in .war & .jar file
+-	Giving docker images to clinet after every modification in website
+-	Testing all devops tools by taking those tools images instead of installing every now and then
+-	Resolve jira tickets on daily basis
+		
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Ansible
+•	Good hands on experience in installing and configuration of Ansible.
+•	Well aware of advantages of ansible over other configuration tools.
+•	Good knowledge in dealing with inventory file and host patterns in adding hosts to inventory file and calling hosts.
+•	Extensively used Ansible ad-hoc commands instead of using ansible playbooks for each and every small task in ansible.
+•	Good knowledge in using multiple ansible modules as and when required and their usage.
+•	Good knowledge in Idempotency concepts of ansible.
+•	Complete hands on experience in writing YAML script in various playbooks.
+•	Well aware of using various sections in ansible like target section, task section and etc.
+•	Used variable section in many playbooks to take the advantage of variables instead of hard coding.
+•	Used handler section while managing dependencies in ansible playbook.
+•	Extensively used other ansible concepts like loops to deal with multiple tasks simultaneously and conditionals.
+•	Used ansible vault to secure information like passwords and secret key files.
+•	Good complete hands on experience of using Ansible roles by including all sections inside ansible playbook.
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Maven
+•	Installed and configured Maven.
+•	Well aware of advantages of using build tool over manual builds.
+•	Good understanding of architecture of maven.
+•	Complete depth understanding of maven build life cycle and maven goals.
+•	Hands on experience in creating maven directory structure and maven local repository to store dependencies.
+•	Knowledge in using maven central repository.
+•	Good understanding of maven's main configuration file POM.XML
+•	Dealt with multi-module projects by using maven.
+
+-	Building source code manually when needed
+-	Using as a part of CI-CD pipeline
+-	Sending console output to respective developers & Testers
+-	Working with developers & Testers for assistance
+-	Resolve jira tickets on daily basis
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Jenkins
+•	Installed and configured Jenkins in both windows and Linux machines.
+•	Complete understanding of Jenkins complete work flow as well as its advantages over other CI-CD tools.
+•	Good hands on experience in integrating many tools with Jenkins like git, maven, selenium, junit, tomcat webservers.
+•	Installed and configured Java as java is pre-requisite to install Jenkins.
+•	Installed and configured build tools like Maven and Ant and integrated with Jenkins.
+•	Good practice experience in creating free style projects and maven projects and dependency projects.
+•	Established complete Jenkins CI-CD pipeline and complete workflow of build and delivery pipelines.
+•	Installed various Jenkins plug-ins from Jenkins community as Jenkins is all about plug-in and play.
+•	Configured many scheduled projects so that they can run frequently without manual trigger.
+•	Responsible to establish complete pipeline work flow starting from pulling source code from git repository till deploying end product into servers.
+•	Created many link projects and configured upstream and downstream projects.
+•	Customizes Jenkins home page and created my own view as well as nested views.
+•	Created many user accounts in Jenkins and given limited privileges to them to ensure security is there in each and every stage by using Jenkins roles.
+•	Created many slaves to take the work load from Master Jenkins server.
+•	Good hands on experience in deploying end product in tomcat web server and other application servers.
+
+-	Using for CI-CD deployment purposes
+-	Create user accounts and giving access to those users with limited privileges with the help of roles
+-	Configuring master-slave setups
+-	Deployed many big applications through jenkins (Tomcat, .war, .jar, webapplications,.....)
+-	Integrates with all other devops tools
+-	Sending build history to respective developers and testers
+-	Configuring upstream and downstream jobs as a part of CI-CD
+-	Creating views like pipeline views
+-	Configuring poll scm and build periodically
+-	Taking regular backups of jenkins
+-	Upgrading plug-ins
+-	Make sure that the pipeline is running smoothly (Addressing issues if any)
+-	Providing training to other members
+-	Documenting new innovations
+-	Scheduling jobs need to run frequently
+-	Resolve jira tickets on daily basis
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Nagios
+•	Installed and configured oldest and latest monitoring tool called Nagios.
+•	Well aware of complete workflow, architecture and advantages of Nagios monitoring tool.
+•	Used many Nagios plugins to monitoring different services in different hosts.
+•	Good understanding of Nagios dashboard and monitoring things.
+•	Created multiple services groups and multiple services groups.
+•	Well understanding of Nagios directory structure and capable of managing that directory structure.
+.		
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Cloud watch
+•	Extensively used cloud monitoring service called Cloud Watch.
+•	Monitored many things like CPU percentage, RAM space, disk space and many more.
+•	Created many cloud watch alarms so that will be alerted if any unusual thing happens and take necessary action to make sure in reducing downtime.
+•	Created different kinds of wizards like line, stacked and numbered wizards.
+•	Dealt with different kinds of metrics which are been provided by AWS.
+•	Good knowledge in using both default monitoring and detailed monitoring.
+•	Integrated cloud watch with so many other AWS services to make sure that there is high availability always..
+
+-	Monitoring CPU, RAM,.........
+-	Creating Alarms to get notifications
+- 	Creating SNS topics and Subscriptions for email notications
+-	Creating customized graphs and dashboards for same family servers
+-	Creating billing alarms and inform to team leads regarding billing and usage of services
+-	Enabling & Disabling detailed monitoring
+-	Working with AWS Teams
+-	Resolve jira tickets on daily basis
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Kubernetes
+•	Responsible to install and configure Kubernetes in physical as well as cloud environments.
+•	Well aware of advantages, architecture and complete work flow of Kubernetes.
+•	Good knowledge in each and every component of Kubernetes.
+•	Installed and configured K8S master and K8S nodes and established communication between them.
+•	Good understanding of K8S master node components like kube-api server, kube-scheduler and etcd store which forms control plane.
+•	Knowledge in K8S node components like Kube-proxy, kubelet and container engine.
+•	Good understanding of single container pod as well as multi container pods.
+•	Well aware of pod limitations and how to address those issues by using high level K8S abstractions like Replica sets, Deployments, Volumes and Services.
+•	Good knowledge in achieving auto scaling and auto healing.
+•	Well aware of upgrading versions that we call rolling updates and as well as roll back concepts.
+-----------------------------------------------------------------------------------------------------------------------------------------------------

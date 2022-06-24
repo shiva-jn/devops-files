@@ -1,0 +1,210 @@
+		Git
+
+- Can't commit - If no email & name set
+- Can't Clone - If private repo
+- SSH key copy mistakes - Can't clone and push (Errors)
+- No pull - Can't push
+- Errors if modify file simultaneously
+- Merge conflicts (in repo & between repos)
+- No SSH Port open - No contact to github
+- Run git commands inside repo only
+- Gitignore proper file pattern - otherwise can't ignore
+- First .gitignore must be tracked file
+- Files are not personnal to branch until you commit
+- Some times push to wrong branch
+- Some times pull from wrong branch
+- Git stash - take wrong item due to no data reference
+- Git stash - Blank file must be tracked first
+- Git reset/revert - files/data will be deleted
+- Delete untracked files - be carefull
+- Proper/meaningfull tags to commits
+- Never share github credentials
+- Verify twice while merging pull requests
+- Don't create too many branches to avoid confusion
+- Be carefull while merging branches
+- Never delete .git repo
+- Don't worry ever if local repo gets deleted - clone from central repo
+- Update your teamlead /manager always about work & errors
+- Don't keep ball in ur court
+- Make use of google/youtube. Don't depend upon others
+- Be prepared while giving training sessions (Share correct knowledge) with good english
+- Document new findings
+
+==========================================================================	
+		Docker
+
+- Open SSH port to communicate with docker hub
+- Don't pull any image from hub to avoid viruses
+- Give meaning full names to images & containers
+- Can't delete image  without deleting containers
+- Create containers in detached mode if any website is running
+- Take proper versions while installing any packages
+- Don't make any mistakes in docker files
+- Keep all docker files in github so that others can use
+- Proper volume mounting is there.
+- Proper port mapping is there. and Don't forget to open port in EC2
+- Can't map same host port to multipe containers
+- Can map >1 ports to >1 port of same containers
+- Make sure opening default container ports
+- Can't mount volume from docker images
+- Can't create >1 volume in one container
+- Make images private in Docker hub
+- Docker for windows will not work on win-10 home to create windows containers
+- If container stops, port will be un mapped
+
+==========================================================================
+			Ansible
+
+- Don't forget to give hosts file path if custom hostsfile
+- Make sure IP of node is there in inventory file
+- Common users and common passwords in all ansible nodes
+- Sudo priveleges to ansible users
+- SSHD config file edit to have ssh & don't forget to reload service
+- Copy public key properly to nodes
+- Modules vary as per OS family
+- Syntax errors in code
+- Become: yes in playbook
+- Forget to change variable names
+- Handler section name mismatch
+- --check before run any playbook
+- Gather facts must be yes if any os specific deployments
+- Encrypt playbook if any sensitive data is there
+- Roles directory structure
+- Both types of Installations are important
+- Give proper permissins to users and groups
+- If don't find ruby script, Use linux commands in 
+- Contact AWS team for Elastic IPs if required
+
+==========================================================================
+			Jenkins
+
+- CI-CD Definition
+- Terminaolgy in Jenkins
+- Proper version of java install & Set Env Variables properly
+- Proper version of Maven install & Set Env Variables properly
+- Plugin errors & upgrade plugins
+- Jenkins service must be running
+- DOn't forget to give tools address in jenkins
+- If to pull private repo, give credentials & Branch info
+- Give proper goals be co-odinating developers & Build Team
+- Sending console output to concerned guys
+- Give proper Build Periodically/pollSCM to have good builds
+- Link jobs properly & if build succeedes, then only build other jobs
+- UpStream/DownStream don't get confused.
+- Create views for easy identification
+- Proper privileges to users & Roles management
+- Slave management by using labels
+- Ansible & Jenkins Connections must be good
+
+==========================================================================
+			
+			Chef
+
+- Update metadata.rb file with info
+- Update README file
+- Syntax errors
+- Creating config files in nodes
+- If don't find ruby script, Use linux commands in recipe
+- Include recipe management (Keep only required recipes. Remaining comment)
+- Don't verify chef server. You can do all from workstation
+- Connect workstation & Server & Nodes properly
+- Contact AWS team for Elastic IPs if required
+- Chef client Interval info from manager
+- Verify logs in Server
+- Run everythinfg inside chef-repo folder
+- Verify nodes attached to roles properly or not
+- Make sure Cookbook is ther in server if entry is ther in roles
+- Before delete something, think twice.
+- CI-CD Management & Connections
+- Co-ordinate with Dev, Build & Test teams for CI-CD
+- Look for replacement plugins if plugins got outdated
+
+==========================================================================
+
+			Maven
+- Proper Goals by contacting Build team
+- Inform Build,development regarding errors
+- Plugins & Address of maven in Jenkins
+- Try to explore maven more if you are from development beckground
+
+==========================================================================
+
+			EC2
+- Launch EC2s with requires configuration
+- Contact AWS team for scaleup & Down
+- Contact AWS for EC2 backup & replication to other region
+- Contact AWS for ElasticIPs
+- Frequent upgradations IN AWS. Be carefull.
+- Keep Keypair safe and secure
+- Opening Ports is Important
+- Don't go for higher config to avoid billing
+- AWS is tracking by CLoud trail
+
+==========================================================================
+			Cloud Watch
+
+- Create alarms for CPU utilizations
+- Create SNS topics and make sure all members getting emails
+- Create Custom graphs
+- Co-Ordinate with AWS teams
+
+==========================================================================
+
+			K8S
+- Architecture
+- Advantages
+- Instllation
+- Pre-Requisites
+- Higherlevel Objects
+- Explore more
+
+==========================================================================
+			Tomcat
+
+- Allow to access browser from any machine
+- Create users & password to login
+- Change port if jenkins conflicts
+- Make sure services are running always
+- Take compatible JAVA versions
+
+==========================================================================
+			General Things
+
+- Provide training sessions
+- Document new findings
+- Ready to learn new tools
+- Take help from Google/Youtube
+- Keep manager in loop and keep updated
+- Try and then seek for help
+- Don't be too hard woker
+- Work for youself
+- Keep your resume updated
+- Have good english speaking skills
+- Behave properly and maturly
+- Don't be slave.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
